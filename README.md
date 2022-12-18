@@ -1,4 +1,4 @@
-# WEb development
+# Web development
 
 Este es un repositorio de cursos de web development.
 
