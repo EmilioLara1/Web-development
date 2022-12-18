@@ -1,4 +1,4 @@
-# HTML y CSS
+# WEb development
 
 Este es un repositorio de cursos de web development.
 Actualmente contiene HTML y CSS
