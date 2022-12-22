@@ -1,0 +1,38 @@
+li{
+    color: rgb(22, 180, 243);
+    font-size: 24px;
+}
+
+#frutas{
+    color: pink;
+    font-size: 40px;
+}
+
+#carnes{
+    color: red;
+    font-size: 40px;
+}
+
+#verduras{
+    color: green;
+    font-size: 40px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+body{
+    background-color: rgb(58, 58, 58);
+}
+
+img{
+    width:20cm;
+    height:15cm;
+}
+
+/* Cambia el color de los links */
+a{
+    color: rgb(255, 0, 221);
+}
