@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+main{
+    width: 100% - 35px;
+    height: 500px;
+    /* solid sirve para que el border sea visible */
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
