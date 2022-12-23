@@ -1,11 +1,9 @@
 /* Combinador child */
-
 div > p{
     color: red;
 }
 
 /* Combinador descendant */
-
 div p{
     color: red;
 }
