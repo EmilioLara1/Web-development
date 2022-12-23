@@ -1,0 +1,31 @@
+.main_nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+.main_nav-item{
+    display: inline-block;
+}
+
+/* A todas las etiquetas a que están dentro de la clase */
+.main_nav-item a{
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* hover es una pseudo clase que significa cuando esta el mouse arriba de */
+.main_nav-item a:hover{
+    color:blue;
+}
+
+.main_nav-item a:active{
+    color:red;
+}
+
+.main_nav-item a::after{
+    content:" | ";
+}
