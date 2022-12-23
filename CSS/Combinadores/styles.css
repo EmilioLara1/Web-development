@@ -1,0 +1,9 @@
+/* Adjacent sibling */
+h2 + p{
+    color: red;
+}
+
+/* General sibling */
+h3 ~ p{
+    color:  blue;
+}
