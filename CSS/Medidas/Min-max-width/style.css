@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100vw;
+    height: 100vw;
+    background-color: blueviolet;
+}
+
+section{
+    width: 80%;
+
+    /* No puede reducirse a menos de 320px */
+    min-width: 320px;
+
+    /* Una vez que llega a 500 px ya no se hace mas grande */
+    max-width: 500px;
+
+
+    height: 500px;
+    /* Si el contenido es mayor, crece con el contenido */
+    min-height: 500px;
+    background-color: aquamarine;
+    /* Centrara el contenedor */
+    margin: 0 auto;
+}
