@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Mandamos a llamar al div parent */
+.parent{
+    /* Ingresamos un border negro con puntos */
+    border: 2px black dotted;
+    /* Se muestra como inline-block */
+    display: inline-block;
+}
+
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two{
+    background-color: blue;
+}
