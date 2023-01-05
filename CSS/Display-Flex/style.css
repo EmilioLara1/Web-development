@@ -16,19 +16,33 @@ body{
 .container{
     border: .3rem solid black;
     display: flex;
+    /* Sirve para alinear todo al centro y siempre estara alineado aunque
+    se incremente el tamaño */
+   /*  align-items: center;
+    height: 50vh; */
+
+    flex-wrap: wrap;
 }
 
 .box{
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+
+    /* Todos los contenedores crecen y comienzan a bajar*/
+    flex-grow: 1;
 }
 
 .box1{
     background-color: blue;
+    /* Se pueden cambiar los ordenes con order*/
+
+    /* Toma el tamaño que sobra */
+    flex-grow: 1;
 }
 
 .box2{
     background-color: red;
+    flex-grow: 1;
 }
 
 .box3{
